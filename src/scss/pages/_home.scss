@@ -389,17 +389,19 @@ body {
     &--body {
         padding: 16px 16px 16px 16px;
 
-        span {
+        a {
             text-transform: uppercase;
             color: #8A9399;
             font-size: 12px;
             font-weight: 400;
             letter-spacing: 1px;
-        }
-
-        a {
             text-decoration: none;
         }
+        a:hover{
+            color:#8A9399;
+        }
+
+
 
         h5 {
             color: #09090A;
@@ -457,7 +459,7 @@ body {
     background-size: cover !important;
     background-position: left !important;
     margin: 70px 0;
-    padding: 70px 0 60px 0;
+    padding: 88px 0 70px 0;
 
     &--header {
         display: flex;
@@ -494,8 +496,8 @@ body {
 // featured-template css
 
 .featured {
-    margin: 70px 0;
-    padding: 70px 0 60px 0;
+    margin: 70px 0  60px  0;
+    
     
 
     &--header {
@@ -632,7 +634,7 @@ body {
                 color: #6E7980;
                 font-size: 16px;
                 text-decoration: none;
-                line-height: 22px;
+                line-height: 38px;
                 padding-left: 0;
             }
 
@@ -918,6 +920,13 @@ body {
     .filter-template-menu-item ul li a {
         margin: 0 5px;
     }
+    .footer--content--item h4 {
+        margin-bottom: 6px;
+        margin-top: 20px;
+    }
+    .footer--content--left p {
+        margin-top: 5px;
+    }
     
 }
 
@@ -975,6 +984,13 @@ body {
         position: relative;
         padding: 0 13px !important;
         margin: 0 7px;
+    }
+    .banner--content h2 {
+        font-weight: 700;
+        font-family: "DM Sans", sans-serif;
+        color: #09090A;
+        font-size: 36px;
+        line-height: 45px;
     }
 }
 
@@ -1121,6 +1137,12 @@ body {
     .nav_item {
         top: 15vh;
         
+    }
+    .footer--content--item h4 {
+        margin-bottom: 4px;
+    }
+    .footer--content--item ul li a {
+        line-height: 33px;
     }
     
 }
