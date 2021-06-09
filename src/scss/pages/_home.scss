@@ -1,5 +1,8 @@
-////////////////////////////////////////////
-// root css
+/*
+////////////////////////////////////////////*/
+/* // root css */
+ 
+
 ol,
 li,
 ul,
@@ -10,8 +13,7 @@ h2,
 h3,
 h4,
 h5,
-h6,
-figure {
+h6  { 
     margin: 0;
     padding: 0 !important;
 }
@@ -21,11 +23,6 @@ body{
 
 ul {
     margin: 0 !important;
-}
-
-figure {
-    margin: 0 !important;
-
 }
 
 li {
@@ -62,12 +59,13 @@ body {
     text-align: right;
 }
 
-////////////////////////////////////////////
-// root css
+/* ////////////////////////////////////////////
+// root css */
 
 
-////////////////////////////////////////////
-// after,before,hover and many other effects css
+/* ////////////////////////////////////////////
+// after,before,hover and many other effects css */
+
 
 
 
@@ -230,12 +228,13 @@ body {
 
 
 
-////////////////////////////////////////////
-// navbar css
-
-
+/*
 ////////////////////////////////////////////
 // banner css
+*/
+
+
+
 
 .banner {
     background-size: cover;
@@ -291,24 +290,23 @@ body {
             display: flex;
             padding: 9px 23px;
 
-            figure {
-                margin: 0px 8px 0px 0;
+            svg {
+                margin: 4px 0px 0px 0;
             }
-
             span {
                 margin: 0 0 0 8px;
             }
-
-
         }
 
     }
 
 }
 
-
+/*
 ////////////////////////////////////////////
 // filter-template css
+*/
+
 
 .filter-template {
     &--box {
@@ -345,9 +343,11 @@ body {
         }
     }
 }
-
+/*
 ////////////////////////////////////////////
 // filter-Card css
+*/
+
 .filter--card {
     cursor: pointer;
     background: #fff;
@@ -433,7 +433,7 @@ body {
                     margin-left: 2px;
                 }
 
-                figure {
+                .figure {
                     display: inline-block;
                     margin-right: 9px;
 
@@ -451,8 +451,11 @@ body {
 }
 
 
+/*
 ////////////////////////////////////////////
 // newest-template css
+*/
+
 
 .newest {
     background-size: cover;
@@ -490,9 +493,11 @@ body {
     }
 }
 
-
+/*
 ////////////////////////////////////////////
 // featured-template css
+*/
+
 
 .featured {
     margin: 70px 0  60px  0;
@@ -518,18 +523,23 @@ body {
       
     }
 }
-
+/*
 ////////////////////////////////////////////
 // free-template css
+*/
+
 
 .free {
     background: rgba(228, 234, 237, 0.5);
 
 }
 
-
+/*
 ////////////////////////////////////////////
 // Subscribe css
+
+*/
+
 
 .Subscribe {
     &--box {
@@ -598,9 +608,13 @@ body {
 
     }
 }
-
+/*
 ////////////////////////////////////////////
 // footer css
+
+*/
+
+
 
 .footer {
     background-size: cover;
@@ -652,9 +666,12 @@ body {
     }
 
 }
-
+/*
 ////////////////////////////////////////////
 // secondary css
+*/
+
+
 
 .secondary--footer {
     background: #FFFFFF;
@@ -689,123 +706,11 @@ body {
 }
 
 
-
-
-
-
-
-//////////////////////
-//@at-root
-
-
-
-
-// header {
-//     display: flex;
-//     justify-content: space-between;
-//     align-items: center;
-//     padding: 1.6rem 0rem;
-// }
-
-// header .logo {
-
-//     margin: 0rem 1.5rem;
-//     color: #333;
-// }
-
-// ul {
-//     display: flex;
-//     justify-content: space-evenly;
-// }
-
-// ul li {
-//     margin-right: 1rem;
-// }
-
-// ul li a {
-//     font-size: 1.3 rem;
-//     padding: 8px 10px;
-//     color: #333;
-//     font-size: 16px;
-//     font-family: 'DM Sans', sans-serif;
-//     font-weight: 500;
-// }
-
-
-
-// .hamburger {
-//     position: absolute;
-//     right: 1.5rem;
-//     flex-direction: column;
-//     justify-content: space-between;
-//     width: 30px;
-//     height: 21px;
-//     display: none;
-
-// }
-
-// .hamburger .bar {
-//     height: 3px;
-//     width: 100%;
-//     background-color: #333;
-//     border-radius: 10px;
-//     transition: 0.3s all;
-// }
-
-
-
-// @media (max-width: 768px) {
-  
-
-//     .hamburger {
-//         display: flex;
-//         cursor: pointer;
-//     }
-
-//     .main-header {
-//         ul {
-//             flex-direction: column;
-//             position: absolute;
-//             top: 14vh;
-//             right: -100%;
-//             background-color: #fff;
-//             height: 100%;
-//             width: 100%;
-//             align-items: center;
-//             transition: right 0.3s ease-in;
-//         }
-//     }
-    
-//     ul li {
-//         margin-right: 0px;
-//     }
-
-//     .menu-slide {
-//         right: 0%;
-//         transition: right 0.3s ease-in;
-//     }
-
-//     .cross .bar:nth-child(2) {
-//         opacity: 0;
-//     }
-
-//     .cross .bar:first-child {
-//         transform: rotate(-45deg) translate(-5px, 7px);
-//     }
-
-//     .cross .bar:last-child {
-//         transform: rotate(45deg) translate(-5px, -7px);
-//     }
-// }
-
-
-
-
-
-
-
+/*
 ////////////////////////////////////////////
 // responsive  css
+*/
+
 
 @media(min-width:992px) and (max-width:1199px) {
     .banner--content h2 {
@@ -1090,8 +995,8 @@ body {
     .Subscribe--box--content--right h3 { 
         font-size: 25px;
     }
-    .Subscribe--box--content--right__button {
-        margin-top: 10px;
+    .Subscribe--box--content--right .form-control {
+        margin-bottom: 10px;
     }
     .footer--content--item span {
         display: inherit;
@@ -1144,14 +1049,24 @@ body {
     .footer--content--item ul li a {
         line-height: 33px;
     }
+    .newest {
+         background: rgba(228, 234, 237, 0.5);
+         
+    }
+    .newest {
+        padding: 88px 0 70px 0!important;
+    }
     
 }
 
 
-
+/*
 
 ///////////////////////////////////////////
-//// navba
+//// navbar
+
+*/
+
 
 
 
@@ -1209,8 +1124,7 @@ body {
   @media (max-width: 768px) {
     
     body {
-      
-      background-position: cover;
+      background-position: cover!important;
     }
     .hamburger {
       display: flex;
