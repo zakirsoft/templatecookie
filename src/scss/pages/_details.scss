@@ -46,9 +46,9 @@ body {
 
 
 .details {
-
-    background-size: cover !important;
-
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     &--content {
         &--breadcumbs {
             padding-bottom: 22px;
