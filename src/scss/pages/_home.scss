@@ -237,10 +237,9 @@ body {
 
 
 .banner {
-
-    background-size: cover !important;
-
-    // background-position: center !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     &--content {
         text-align: center;
         padding: 140px 0 140px 0;
@@ -459,11 +458,11 @@ body {
 
 
 .newest {
-    background-size: cover !important;
-    background-position: left !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     margin: 70px 0;
     padding: 88px 0 70px 0;
-
     &--header {
         display: flex;
         justify-content: space-between;
@@ -668,12 +667,11 @@ body {
     }
 
 }
+
 /*
 ////////////////////////////////////////////
 // secondary css
 */
-
-
 
 .secondary--footer {
     background: #FFFFFF;
